@@ -1,0 +1,48 @@
+{
+  "attributes": [
+    {
+      "status": true,
+      "attributes_set": {
+        "attributes": [
+          {
+            "name": "occupation",
+            "value": "physician",
+            "status": true
+          },
+          {
+            "name": "occupation",
+            "value": "nurse",
+            "status": true
+          }
+        ],
+        "threshold": "1of2"
+      }
+    },
+    {
+      "status": true,
+      "attributes_set": {
+        "attributes": [
+          {
+            "name": "specialty",
+            "value": "orthopedics",
+            "status": true
+          },
+          {
+            "name": "specialty",
+            "value": "radiology",
+            "status": true
+          }
+        ],
+        "threshold": "1of2"
+      }
+    },
+    {
+      "name": "department",
+      "value": "emergency_medicine",
+      "status": true
+    }
+  ],
+  "threshold": "1of3",
+  "constraints": [],
+  "revokedUsers": []
+}

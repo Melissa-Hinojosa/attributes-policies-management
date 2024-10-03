@@ -1,0 +1,43 @@
+{
+  "attributes": [
+    {
+      "status": true,
+      "attributes_set": {
+        "attributes": [
+          {
+            "name": "occupation",
+            "value": "student",
+            "status": true
+          },
+          {
+            "name": "career",
+            "value": "Math",
+            "status": true
+          }
+        ],
+        "threshold": "2of2"
+      }
+    },
+    {
+      "status": true,
+      "attributes_set": {
+        "attributes": [
+          {
+            "name": "department",
+            "value": "Laboratory_1",
+            "status": true
+          },
+          {
+            "name": "building",
+            "value": "East_Building",
+            "status": true
+          }
+        ],
+        "threshold": "1of2"
+      }
+    }
+  ],
+  "threshold": "1of2",
+  "constraints": [],
+  "revokedUsers": []
+}

@@ -1,0 +1,24 @@
+{
+  "attributes": [
+    {
+      "name": "occupation",
+      "value": "student",
+      "status": true
+    },
+    {
+      "name": "career",
+      "value": "IT",
+      "status": false
+    },
+    {
+      "name": "building",
+      "value": "Central Building",
+      "status": true
+    }
+  ],
+  "threshold": "1of2",
+  "constraints": [],
+  "revokedUsers": [
+    "userPr2"
+  ]
+}

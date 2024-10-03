@@ -1,0 +1,19 @@
+{
+  "attributes": [
+    {
+      "name": "occupation",
+      "value": "assistant",
+      "status": true
+    },
+    {
+      "name": "career",
+      "value": "IT",
+      "status": true
+    }
+  ],
+  "threshold": "1of2",
+  "constraints": [],
+  "revokedUsers": [
+    "userSt1"
+  ]
+}

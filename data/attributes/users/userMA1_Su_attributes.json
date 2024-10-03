@@ -1,0 +1,23 @@
+[
+  {
+    "attribute": "occupation",
+    "value": "medical_assistant",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "02-10-2024 19:40:45",
+    "status": true
+  },
+  {
+    "attribute": "specialty",
+    "value": "radiology",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "02-10-2024 19:40:45",
+    "status": true
+  },
+  {
+    "attribute": "sub-specialty",
+    "value": "interventional_radiology",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "02-10-2024 19:40:45",
+    "status": true
+  }
+]

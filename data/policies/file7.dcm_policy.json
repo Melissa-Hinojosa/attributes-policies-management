@@ -1,0 +1,22 @@
+{
+  "attributes": [
+    {
+      "name": "occupation",
+      "value": "medical_researcher",
+      "status": true
+    },
+    {
+      "name": "specialty",
+      "value": "pathology",
+      "status": true
+    },
+    {
+      "name": "department",
+      "value": "clinical_trials",
+      "status": true
+    }
+  ],
+  "threshold": "3of3",
+  "constraints": [],
+  "revokedUsers": []
+}

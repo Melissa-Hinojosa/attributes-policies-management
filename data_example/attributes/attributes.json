@@ -1,0 +1,106 @@
+[
+  {
+    "name": "occupation",
+    "value_type": "string",
+    "category": "faculty_staff",
+    "values": [
+      {
+        "value": "student",
+        "constraints": [
+          "weekdays",
+          "currentTime\u003e\u003d10:00:00",
+          "currentTime\u003c\u003d18:00:00"
+        ],
+        "status": true
+      },
+      {
+        "value": "professor",
+        "constraints": [
+          "weekdays",
+          "currentTime\u003e\u003d08:00:00",
+          "currentTime\u003c\u003d18:00:00"
+        ],
+        "status": true
+      },
+      {
+        "value": "assistant",
+        "constraints": [
+          "weekdays",
+          "currentTime\u003e\u003d09:00:00",
+          "currentTime\u003c\u003d18:00:00"
+        ],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "career",
+    "value_type": "string",
+    "category": "education_offer",
+    "values": [
+      {
+        "value": "IT",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "Math",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "department",
+    "value_type": "string",
+    "category": "faculties_infrastructure",
+    "values": [
+      {
+        "value": "Laboratory 1",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "Laboratory 2",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "IA",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "Robotics",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "building",
+    "value_type": "string",
+    "category": "faculties_infrastructure",
+    "values": [
+      {
+        "value": "Central Building",
+        "constraints": [],
+        "status": false
+      },
+      {
+        "value": "East Building",
+        "constraints": [],
+        "status": false
+      },
+      {
+        "value": "West Building",
+        "constraints": [],
+        "status": false
+      }
+    ],
+    "status": false
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "name": "occupation",
+    "value_type": "string",
+    "category": "staff",
+    "values": [
+      {
+        "value": "physician",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "resident",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "nurse",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "medical_assistant",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "medical_researcher",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "specialty",
+    "value_type": "string",
+    "category": "medical_specialty",
+    "values": [
+      {
+        "value": "radiology",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "oncology",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "gynecology",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "orthopedics",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "internal_medicine",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "pathology",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "sub-specialty",
+    "value_type": "string",
+    "category": "medical_sub-specialties",
+    "values": [
+      {
+        "value": "nuclear_medicine",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "interventional_radiology",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "thoracic_oncology",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "breast_oncology",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "musculoskeletal_oncology",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "rheumatology",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "anatomical_pathology",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "clinical_pathology",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "department",
+    "value_type": "string",
+    "category": "infrastructure",
+    "values": [
+      {
+        "value": "medical_imaging",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "oncology",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "gynecology",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "orthopedics",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "pathology",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "clinical_trials",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "emergency_medicine",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "institution",
+    "value_type": "string",
+    "category": "infrastructure",
+    "values": [
+      {
+        "value": "INR",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "IMSS",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "ISSSTE",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "OCA",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "HU",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  }
+]

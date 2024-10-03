@@ -1,0 +1,71 @@
+{
+  "attributes": [
+    {
+      "status": true,
+      "attributes_set": {
+        "attributes": [
+          {
+            "name": "occupation",
+            "value": "physician",
+            "status": true
+          },
+          {
+            "name": "occupation",
+            "value": "medical_researcher",
+            "status": true
+          }
+        ],
+        "threshold": "1of2"
+      }
+    },
+    {
+      "status": true,
+      "attributes_set": {
+        "attributes": [
+          {
+            "name": "specialty",
+            "value": "radiology",
+            "status": true
+          },
+          {
+            "name": "specialty",
+            "value": "internal_medicine",
+            "status": true
+          },
+          {
+            "name": "specialty",
+            "value": "pathology",
+            "status": true
+          }
+        ],
+        "threshold": "1of3"
+      }
+    },
+    {
+      "status": true,
+      "attributes_set": {
+        "attributes": [
+          {
+            "name": "sub-specialty",
+            "value": "interventional_radiology",
+            "status": true
+          },
+          {
+            "name": "sub-specialty",
+            "value": "clinical_pathology",
+            "status": true
+          }
+        ],
+        "threshold": "1of2"
+      }
+    },
+    {
+      "name": "institution",
+      "value": "IMSS",
+      "status": true
+    }
+  ],
+  "threshold": "3of4",
+  "constraints": [],
+  "revokedUsers": []
+}

@@ -1,0 +1,32 @@
+{
+  "attributes": [
+    {
+      "name": "occupation",
+      "value": "medical_researcher",
+      "status": true
+    },
+    {
+      "name": "specialty",
+      "value": "radiology",
+      "status": true
+    },
+    {
+      "name": "sub-specialty",
+      "value": "nuclear_medicine",
+      "status": true
+    },
+    {
+      "name": "department",
+      "value": "medical_imaging",
+      "status": true
+    },
+    {
+      "name": "institution",
+      "value": "INR",
+      "status": true
+    }
+  ],
+  "threshold": "5of5",
+  "constraints": [],
+  "revokedUsers": []
+}

@@ -1,0 +1,17 @@
+{
+  "attributes": [
+    {
+      "name": "occupation",
+      "value": "professor",
+      "status": true
+    },
+    {
+      "name": "career",
+      "value": "IT",
+      "status": true
+    }
+  ],
+  "threshold": "2of2",
+  "constraints": [],
+  "revokedUsers": []
+}

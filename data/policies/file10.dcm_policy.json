@@ -1,0 +1,27 @@
+{
+  "attributes": [
+    {
+      "name": "occupation",
+      "value": "medical_researcher",
+      "status": true
+    },
+    {
+      "name": "occupation",
+      "value": "medical_assistant",
+      "status": true
+    },
+    {
+      "name": "specialty",
+      "value": "internal_medicine",
+      "status": true
+    },
+    {
+      "name": "department",
+      "value": "emergency_medicine",
+      "status": true
+    }
+  ],
+  "threshold": "2of4",
+  "constraints": [],
+  "revokedUsers": []
+}

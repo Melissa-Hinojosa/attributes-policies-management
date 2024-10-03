@@ -1,0 +1,30 @@
+[
+  {
+    "attribute": "occupation",
+    "value": "medical_researcher",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "02-10-2024 19:40:45",
+    "status": true
+  },
+  {
+    "attribute": "specialty",
+    "value": "pathology",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "02-10-2024 19:40:45",
+    "status": true
+  },
+  {
+    "attribute": "sub-specialty",
+    "value": "anatomical_pathology",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "02-10-2024 19:40:45",
+    "status": true
+  },
+  {
+    "attribute": "department",
+    "value": "clinical_trials",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "02-10-2024 19:40:45",
+    "status": true
+  }
+]
