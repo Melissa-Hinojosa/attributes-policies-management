@@ -84,7 +84,6 @@ data/source/
 ## 🔒 CP-ABE + AES Workflow (Test_ABE_Management.java)
 
 ### User Key Generation
-- `getUserActiveAttributes()`: Retrieves the active attribute set 𝑆ᵤ for a given user.
 - `createSKu()`: Generates the user's secret key 𝑆𝐾ᵤ using BSW07 or W11.
 
 ### File Encryption
@@ -129,7 +128,7 @@ Runs all three tests sequentially:
 
 ---
 
-## 🧑‍💻 Author
+## 💻 Author
 
 **Melissa Brigitthe Hinojosa-Cabello**  
 Version 1.0 – Updated 2025-06
