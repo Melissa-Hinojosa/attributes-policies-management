@@ -107,7 +107,6 @@ Simulates the full process:
 
 ### User Attribute Sets
 
-**generateUserAttributes(int attributeCount)**  
 - `testAttributeSetsGeneration()`: Automatically generates user attribute sets for different sizes (e.g., 10-200 attributes), repeating the process 100 times per configuration.
 
 ### Access Control Policies
