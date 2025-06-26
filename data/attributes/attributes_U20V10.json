@@ -1,0 +1,1162 @@
+[
+  {
+    "name": "A",
+    "value_type": "string",
+    "category": "A",
+    "values": [
+      {
+        "value": "A",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "B",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "C",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "D",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "E",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "F",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "G",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "H",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "I",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "J",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "B",
+    "value_type": "string",
+    "category": "B",
+    "values": [
+      {
+        "value": "K",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "L",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "M",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "N",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "O",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "P",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "Q",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "R",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "S",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "T",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "C",
+    "value_type": "string",
+    "category": "C",
+    "values": [
+      {
+        "value": "U",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "V",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "W",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "X",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "Y",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "Z",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AA",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AB",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AC",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AD",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "D",
+    "value_type": "string",
+    "category": "D",
+    "values": [
+      {
+        "value": "AE",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AF",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AG",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AH",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AI",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AJ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AK",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AL",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AM",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AN",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "E",
+    "value_type": "string",
+    "category": "E",
+    "values": [
+      {
+        "value": "AO",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AP",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AQ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AR",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AS",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AT",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AU",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AV",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AW",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AX",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "F",
+    "value_type": "string",
+    "category": "F",
+    "values": [
+      {
+        "value": "AY",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "AZ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BA",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BB",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BC",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BD",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BE",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BF",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BG",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BH",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "G",
+    "value_type": "string",
+    "category": "G",
+    "values": [
+      {
+        "value": "BI",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BJ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BK",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BL",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BM",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BN",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BO",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BP",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BQ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BR",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "H",
+    "value_type": "string",
+    "category": "H",
+    "values": [
+      {
+        "value": "BS",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BT",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BU",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BV",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BW",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BX",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BY",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "BZ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CA",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CB",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "I",
+    "value_type": "string",
+    "category": "I",
+    "values": [
+      {
+        "value": "CC",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CD",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CE",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CF",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CG",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CH",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CI",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CJ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CK",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CL",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "J",
+    "value_type": "string",
+    "category": "J",
+    "values": [
+      {
+        "value": "CM",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CN",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CO",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CP",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CQ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CR",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CS",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CT",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CU",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CV",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "K",
+    "value_type": "string",
+    "category": "K",
+    "values": [
+      {
+        "value": "CW",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CX",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CY",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "CZ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DA",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DB",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DC",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DD",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DE",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DF",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "L",
+    "value_type": "string",
+    "category": "L",
+    "values": [
+      {
+        "value": "DG",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DH",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DI",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DJ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DK",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DL",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DM",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DN",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DO",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DP",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "M",
+    "value_type": "string",
+    "category": "M",
+    "values": [
+      {
+        "value": "DQ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DR",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DS",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DT",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DU",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DV",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DW",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DX",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DY",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "DZ",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "N",
+    "value_type": "string",
+    "category": "N",
+    "values": [
+      {
+        "value": "EA",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EB",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EC",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "ED",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EE",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EF",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EG",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EH",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EI",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EJ",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "O",
+    "value_type": "string",
+    "category": "O",
+    "values": [
+      {
+        "value": "EK",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EL",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EM",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EN",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EO",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EP",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EQ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "ER",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "ES",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "ET",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "P",
+    "value_type": "string",
+    "category": "P",
+    "values": [
+      {
+        "value": "EU",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EV",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EW",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EX",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EY",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "EZ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FA",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FB",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FC",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FD",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "Q",
+    "value_type": "string",
+    "category": "Q",
+    "values": [
+      {
+        "value": "FE",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FF",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FG",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FH",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FI",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FJ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FK",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FL",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FM",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FN",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "R",
+    "value_type": "string",
+    "category": "R",
+    "values": [
+      {
+        "value": "FO",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FP",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FQ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FR",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FS",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FT",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FU",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FV",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FW",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FX",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "S",
+    "value_type": "string",
+    "category": "S",
+    "values": [
+      {
+        "value": "FY",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "FZ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GA",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GB",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GC",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GD",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GE",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GF",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GG",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GH",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  },
+  {
+    "name": "T",
+    "value_type": "string",
+    "category": "T",
+    "values": [
+      {
+        "value": "GI",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GJ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GK",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GL",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GM",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GN",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GO",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GP",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GQ",
+        "constraints": [],
+        "status": true
+      },
+      {
+        "value": "GR",
+        "constraints": [],
+        "status": true
+      }
+    ],
+    "status": true
+  }
+]

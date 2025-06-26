@@ -1,0 +1,43 @@
+{
+  "attributes": [
+    {
+      "status": true,
+      "attributes_set": {
+        "attributes": [
+          {
+            "name": "occupation",
+            "value": "physician",
+            "status": true
+          },
+          {
+            "name": "occupation",
+            "value": "nurse",
+            "status": true
+          }
+        ],
+        "threshold": "1of2"
+      }
+    },
+    {
+      "status": true,
+      "attributes_set": {
+        "attributes": [
+          {
+            "name": "specialty",
+            "value": "orthopedics",
+            "status": true
+          },
+          {
+            "name": "specialty",
+            "value": "radiology",
+            "status": true
+          }
+        ],
+        "threshold": "1of2"
+      }
+    }
+  ],
+  "threshold": "2of2",
+  "constraints": [],
+  "revokedUsers": []
+}

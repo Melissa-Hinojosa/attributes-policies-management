@@ -1,0 +1,48 @@
+{
+  "attributes": [
+    {
+      "status": true,
+      "attributes_set": {
+        "attributes": [
+          {
+            "name": "occupation",
+            "value": "assistant",
+            "status": true
+          },
+          {
+            "name": "career",
+            "value": "Math",
+            "status": true
+          }
+        ],
+        "threshold": "2of2"
+      }
+    },
+    {
+      "status": true,
+      "attributes_set": {
+        "attributes": [
+          {
+            "name": "department",
+            "value": "IA",
+            "status": true
+          },
+          {
+            "name": "building",
+            "value": "Central Building",
+            "status": true
+          }
+        ],
+        "threshold": "1of2"
+      }
+    },
+    {
+      "name": "occupation",
+      "value": "assistant",
+      "status": true
+    }
+  ],
+  "threshold": "1of3",
+  "constraints": [],
+  "revokedUsers": []
+}

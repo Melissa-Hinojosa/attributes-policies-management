@@ -1,0 +1,16 @@
+[
+  {
+    "attribute": "occupation",
+    "value": "student",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "26-06-2025 00:34:05",
+    "status": true
+  },
+  {
+    "attribute": "career",
+    "value": "IT",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "26-06-2025 00:34:05",
+    "status": true
+  }
+]

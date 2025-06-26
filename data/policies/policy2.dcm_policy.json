@@ -1,0 +1,32 @@
+{
+  "attributes": [
+    {
+      "name": "occupation",
+      "value": "physician",
+      "status": true
+    },
+    {
+      "name": "occupation",
+      "value": "resident",
+      "status": true
+    },
+    {
+      "name": "specialty",
+      "value": "radiology",
+      "status": true
+    },
+    {
+      "name": "specialty",
+      "value": "orthopedics",
+      "status": true
+    },
+    {
+      "name": "department",
+      "value": "medical_imaging",
+      "status": true
+    }
+  ],
+  "threshold": "2of5",
+  "constraints": [],
+  "revokedUsers": []
+}

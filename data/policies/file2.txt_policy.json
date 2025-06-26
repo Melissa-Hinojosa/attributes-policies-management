@@ -1,0 +1,29 @@
+{
+  "attributes": [
+    {
+      "name": "occupation",
+      "value": "assistant",
+      "status": true
+    },
+    {
+      "name": "career",
+      "value": "IT",
+      "status": false
+    },
+    {
+      "name": "department",
+      "value": "Laboratory 1",
+      "status": true
+    },
+    {
+      "name": "building",
+      "value": "Central Building",
+      "status": true
+    }
+  ],
+  "threshold": "1of3",
+  "constraints": [],
+  "revokedUsers": [
+    "userPr2"
+  ]
+}

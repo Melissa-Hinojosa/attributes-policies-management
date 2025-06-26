@@ -1,0 +1,72 @@
+[
+  {
+    "attribute": "A",
+    "value": "A",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "18-06-2025 23:35:50",
+    "status": true
+  },
+  {
+    "attribute": "B",
+    "value": "B",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "18-06-2025 23:35:50",
+    "status": true
+  },
+  {
+    "attribute": "C",
+    "value": "C",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "18-06-2025 23:35:50",
+    "status": true
+  },
+  {
+    "attribute": "D",
+    "value": "D",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "18-06-2025 23:35:50",
+    "status": true
+  },
+  {
+    "attribute": "E",
+    "value": "E",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "18-06-2025 23:35:50",
+    "status": true
+  },
+  {
+    "attribute": "F",
+    "value": "F",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "18-06-2025 23:35:50",
+    "status": true
+  },
+  {
+    "attribute": "G",
+    "value": "G",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "18-06-2025 23:35:50",
+    "status": true
+  },
+  {
+    "attribute": "H",
+    "value": "H",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "18-06-2025 23:35:50",
+    "status": true
+  },
+  {
+    "attribute": "I",
+    "value": "I",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "18-06-2025 23:35:50",
+    "status": true
+  },
+  {
+    "attribute": "J",
+    "value": "J",
+    "issuer_id": "DESKTOP-GT2G574",
+    "issue_datetime": "18-06-2025 23:35:50",
+    "status": true
+  }
+]

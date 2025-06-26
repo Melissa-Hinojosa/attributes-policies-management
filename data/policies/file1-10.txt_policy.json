@@ -1,0 +1,57 @@
+{
+  "attributes": [
+    {
+      "name": "A",
+      "value": "A",
+      "status": true
+    },
+    {
+      "name": "B",
+      "value": "B",
+      "status": true
+    },
+    {
+      "name": "C",
+      "value": "C",
+      "status": true
+    },
+    {
+      "name": "D",
+      "value": "D",
+      "status": true
+    },
+    {
+      "name": "E",
+      "value": "E",
+      "status": true
+    },
+    {
+      "name": "F",
+      "value": "F",
+      "status": true
+    },
+    {
+      "name": "G",
+      "value": "G",
+      "status": true
+    },
+    {
+      "name": "H",
+      "value": "H",
+      "status": true
+    },
+    {
+      "name": "I",
+      "value": "I",
+      "status": true
+    },
+    {
+      "name": "J",
+      "value": "J",
+      "status": true
+    }
+  ],
+  "threshold": "10of10",
+  "constraints": [],
+  "revokedUsers": []
+}

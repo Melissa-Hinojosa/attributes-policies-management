@@ -4,14 +4,16 @@ import attributes.AttributesUniverseValues;
 import attributes.UserAttributes;
 import com.google.gson.Gson;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.net.UnknownHostException;
 import org.json.JSONException;
 import utils.ProcessJSON;
 import utils.StructuresDisplay;
 
 /**
- * Class used for attributes' management.
+ * Class used for ...
  * 
  * @author      Melissa Brigitthe Hinojosa-Cabello
  * @version     2.0
@@ -26,19 +28,29 @@ public class AttributesManagement {
      * Example for attributes universe generation.
      * @param attributes
      * @param attrVals
+     * @param note
      * @throws JSONException
      * @throws IOException 
      */
-    public static void generateAttributesUniverse(String[][] attributes,Object[] attrVals) throws JSONException, IOException{
+    public static void generateAttributesUniverse(String[][] attributes,Object[] attrVals,String note) throws JSONException, IOException{
         File f = new File(attributesPath); 
         
         //Create directory, if not exists
         if (!f.exists())
             f.mkdirs();
         
+        //Adjust filename, if required
+        String filename=attributesUniverseJSON;
+        if(!note.isEmpty()){
+            String[] fileVals=attributesUniverseJSON.split("\\.");
+            filename=fileVals[0]+note+"."+fileVals[1];
+        }
+        
         //Amount of attributes to be added
         int attrsLength=attributes.length;
+        int valsLength=attrVals.length;
         
+        long startTime = System.nanoTime(); //Start timer
         //Populate attributes universe
         AttributesUniverse[] attrU=new AttributesUniverse[attrsLength];
         for(int i=0;i<attrsLength;i++){
@@ -48,11 +60,58 @@ public class AttributesManagement {
             attrU[i]=new AttributesUniverse(attributes[i][0],attributes[i][1],attributes[i][2],values,true);
         }
         
-        //Show attributes array
-        StructuresDisplay.displayAttributesUniverse(attrU,"");
-        
         //Write created JSON
-        ProcessJSON.writeJSON(attrU,attributesPath+attributesUniverseJSON);
+        ProcessJSON.writeJSON(attrU,attributesPath+filename);
+        long endTime = System.nanoTime(); //End timer
+        long durationMs = (endTime - startTime) / 1_000_000; //Convert to milliseconds
+        //Write execution times
+        if(!note.isEmpty())
+            logAttributeUniverseExecutionTime("ExecutionTimes_AttributeUniverse.csv", note, durationMs);
+        
+//        //Show attributes array
+//        StructuresDisplay.displayAttributesUniverse(attrU,"");
+    }
+    
+    /**
+     * Log attribute universe generation response time
+     * @param logFile
+     * @param numAttributes
+     * @param numValues
+     * @param durationMs 
+     */
+    private static void logAttributeUniverseExecutionTime(String logFile, String note, long durationMs) {
+        File file = new File(attributesPath+logFile);
+        boolean fileExists = file.exists();
+
+        try (PrintWriter writer = new PrintWriter(new FileWriter(file, true))) {
+            if (!fileExists)
+                writer.println("#Attributes-#Values,ExecutionTime(ms)");
+            writer.println(note+","+durationMs);
+        } catch (IOException e) {
+            System.err.println("Error writing execution time to CSV: "+logFile);
+            e.printStackTrace();
+        }
+    }
+    
+    /**
+     * Log attribute sets generation response time
+     * @param logFile
+     * @param numAttributes
+     * @param numValues
+     * @param durationMs 
+     */
+    private static void logAttributeSetsExecutionTime(String logFile, String note, long durationMs) {
+        File file = new File(attributesPath+logFile);
+        boolean fileExists = file.exists();
+
+        try (PrintWriter writer = new PrintWriter(new FileWriter(file, true))) {
+            if (!fileExists)
+                writer.println("#Attributes,ExecutionTime(ms)");
+            writer.println(note+","+durationMs);
+        } catch (IOException e) {
+            System.err.println("Error writing execution time to CSV: "+logFile);
+            e.printStackTrace();
+        }
     }
     
     /**
@@ -237,7 +296,7 @@ public class AttributesManagement {
      * @throws JSONException 
      * @throws java.net.UnknownHostException 
      */
-    public static void generateUserAttributes(User user) throws JSONException, UnknownHostException{
+    public static void generateUserAttributes(User user,String note) throws JSONException, UnknownHostException{
         String usersPath=attributesPath+"users/";
         File f = new File(usersPath); 
         
@@ -245,13 +304,19 @@ public class AttributesManagement {
         if (!f.exists())
             f.mkdirs();
         
+        long startTime = System.nanoTime(); //Start timer
         //User' attributes assignments
         UserAttributes[] attributes=user.getAttributes();
 
         //Write created JSON
         ProcessJSON.writeJSON(attributes,usersPath+user.getUserID()+usersAttributesJSON);
-        //Show user's attributes
-        StructuresDisplay.displayUserAttributes(user.getUserID(),"");
+        long endTime = System.nanoTime(); //End timer
+        long durationMs = (endTime - startTime) / 1_000_000; //Convert to milliseconds
+        
+        if(!note.isEmpty())
+            logAttributeSetsExecutionTime("users/ExecutionTimes_AttributeSets.csv", note, durationMs);
+//        //Show user's attributes
+//        StructuresDisplay.displayUserAttributes(user.getUserID(),"");
     }
     
     /**

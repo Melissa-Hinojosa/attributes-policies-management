@@ -1,0 +1,507 @@
+{
+  "attributes": [
+    {
+      "name": "A",
+      "value": "A",
+      "status": true
+    },
+    {
+      "name": "B",
+      "value": "B",
+      "status": true
+    },
+    {
+      "name": "C",
+      "value": "C",
+      "status": true
+    },
+    {
+      "name": "D",
+      "value": "D",
+      "status": true
+    },
+    {
+      "name": "E",
+      "value": "E",
+      "status": true
+    },
+    {
+      "name": "F",
+      "value": "F",
+      "status": true
+    },
+    {
+      "name": "G",
+      "value": "G",
+      "status": true
+    },
+    {
+      "name": "H",
+      "value": "H",
+      "status": true
+    },
+    {
+      "name": "I",
+      "value": "I",
+      "status": true
+    },
+    {
+      "name": "J",
+      "value": "J",
+      "status": true
+    },
+    {
+      "name": "K",
+      "value": "K",
+      "status": true
+    },
+    {
+      "name": "L",
+      "value": "L",
+      "status": true
+    },
+    {
+      "name": "M",
+      "value": "M",
+      "status": true
+    },
+    {
+      "name": "N",
+      "value": "N",
+      "status": true
+    },
+    {
+      "name": "O",
+      "value": "O",
+      "status": true
+    },
+    {
+      "name": "P",
+      "value": "P",
+      "status": true
+    },
+    {
+      "name": "Q",
+      "value": "Q",
+      "status": true
+    },
+    {
+      "name": "R",
+      "value": "R",
+      "status": true
+    },
+    {
+      "name": "S",
+      "value": "S",
+      "status": true
+    },
+    {
+      "name": "T",
+      "value": "T",
+      "status": true
+    },
+    {
+      "name": "U",
+      "value": "U",
+      "status": true
+    },
+    {
+      "name": "V",
+      "value": "V",
+      "status": true
+    },
+    {
+      "name": "W",
+      "value": "W",
+      "status": true
+    },
+    {
+      "name": "X",
+      "value": "X",
+      "status": true
+    },
+    {
+      "name": "Y",
+      "value": "Y",
+      "status": true
+    },
+    {
+      "name": "Z",
+      "value": "Z",
+      "status": true
+    },
+    {
+      "name": "AA",
+      "value": "AA",
+      "status": true
+    },
+    {
+      "name": "AB",
+      "value": "AB",
+      "status": true
+    },
+    {
+      "name": "AC",
+      "value": "AC",
+      "status": true
+    },
+    {
+      "name": "AD",
+      "value": "AD",
+      "status": true
+    },
+    {
+      "name": "AE",
+      "value": "AE",
+      "status": true
+    },
+    {
+      "name": "AF",
+      "value": "AF",
+      "status": true
+    },
+    {
+      "name": "AG",
+      "value": "AG",
+      "status": true
+    },
+    {
+      "name": "AH",
+      "value": "AH",
+      "status": true
+    },
+    {
+      "name": "AI",
+      "value": "AI",
+      "status": true
+    },
+    {
+      "name": "AJ",
+      "value": "AJ",
+      "status": true
+    },
+    {
+      "name": "AK",
+      "value": "AK",
+      "status": true
+    },
+    {
+      "name": "AL",
+      "value": "AL",
+      "status": true
+    },
+    {
+      "name": "AM",
+      "value": "AM",
+      "status": true
+    },
+    {
+      "name": "AN",
+      "value": "AN",
+      "status": true
+    },
+    {
+      "name": "AO",
+      "value": "AO",
+      "status": true
+    },
+    {
+      "name": "AP",
+      "value": "AP",
+      "status": true
+    },
+    {
+      "name": "AQ",
+      "value": "AQ",
+      "status": true
+    },
+    {
+      "name": "AR",
+      "value": "AR",
+      "status": true
+    },
+    {
+      "name": "AS",
+      "value": "AS",
+      "status": true
+    },
+    {
+      "name": "AT",
+      "value": "AT",
+      "status": true
+    },
+    {
+      "name": "AU",
+      "value": "AU",
+      "status": true
+    },
+    {
+      "name": "AV",
+      "value": "AV",
+      "status": true
+    },
+    {
+      "name": "AW",
+      "value": "AW",
+      "status": true
+    },
+    {
+      "name": "AX",
+      "value": "AX",
+      "status": true
+    },
+    {
+      "name": "AY",
+      "value": "AY",
+      "status": true
+    },
+    {
+      "name": "AZ",
+      "value": "AZ",
+      "status": true
+    },
+    {
+      "name": "BA",
+      "value": "BA",
+      "status": true
+    },
+    {
+      "name": "BB",
+      "value": "BB",
+      "status": true
+    },
+    {
+      "name": "BC",
+      "value": "BC",
+      "status": true
+    },
+    {
+      "name": "BD",
+      "value": "BD",
+      "status": true
+    },
+    {
+      "name": "BE",
+      "value": "BE",
+      "status": true
+    },
+    {
+      "name": "BF",
+      "value": "BF",
+      "status": true
+    },
+    {
+      "name": "BG",
+      "value": "BG",
+      "status": true
+    },
+    {
+      "name": "BH",
+      "value": "BH",
+      "status": true
+    },
+    {
+      "name": "BI",
+      "value": "BI",
+      "status": true
+    },
+    {
+      "name": "BJ",
+      "value": "BJ",
+      "status": true
+    },
+    {
+      "name": "BK",
+      "value": "BK",
+      "status": true
+    },
+    {
+      "name": "BL",
+      "value": "BL",
+      "status": true
+    },
+    {
+      "name": "BM",
+      "value": "BM",
+      "status": true
+    },
+    {
+      "name": "BN",
+      "value": "BN",
+      "status": true
+    },
+    {
+      "name": "BO",
+      "value": "BO",
+      "status": true
+    },
+    {
+      "name": "BP",
+      "value": "BP",
+      "status": true
+    },
+    {
+      "name": "BQ",
+      "value": "BQ",
+      "status": true
+    },
+    {
+      "name": "BR",
+      "value": "BR",
+      "status": true
+    },
+    {
+      "name": "BS",
+      "value": "BS",
+      "status": true
+    },
+    {
+      "name": "BT",
+      "value": "BT",
+      "status": true
+    },
+    {
+      "name": "BU",
+      "value": "BU",
+      "status": true
+    },
+    {
+      "name": "BV",
+      "value": "BV",
+      "status": true
+    },
+    {
+      "name": "BW",
+      "value": "BW",
+      "status": true
+    },
+    {
+      "name": "BX",
+      "value": "BX",
+      "status": true
+    },
+    {
+      "name": "BY",
+      "value": "BY",
+      "status": true
+    },
+    {
+      "name": "BZ",
+      "value": "BZ",
+      "status": true
+    },
+    {
+      "name": "CA",
+      "value": "CA",
+      "status": true
+    },
+    {
+      "name": "CB",
+      "value": "CB",
+      "status": true
+    },
+    {
+      "name": "CC",
+      "value": "CC",
+      "status": true
+    },
+    {
+      "name": "CD",
+      "value": "CD",
+      "status": true
+    },
+    {
+      "name": "CE",
+      "value": "CE",
+      "status": true
+    },
+    {
+      "name": "CF",
+      "value": "CF",
+      "status": true
+    },
+    {
+      "name": "CG",
+      "value": "CG",
+      "status": true
+    },
+    {
+      "name": "CH",
+      "value": "CH",
+      "status": true
+    },
+    {
+      "name": "CI",
+      "value": "CI",
+      "status": true
+    },
+    {
+      "name": "CJ",
+      "value": "CJ",
+      "status": true
+    },
+    {
+      "name": "CK",
+      "value": "CK",
+      "status": true
+    },
+    {
+      "name": "CL",
+      "value": "CL",
+      "status": true
+    },
+    {
+      "name": "CM",
+      "value": "CM",
+      "status": true
+    },
+    {
+      "name": "CN",
+      "value": "CN",
+      "status": true
+    },
+    {
+      "name": "CO",
+      "value": "CO",
+      "status": true
+    },
+    {
+      "name": "CP",
+      "value": "CP",
+      "status": true
+    },
+    {
+      "name": "CQ",
+      "value": "CQ",
+      "status": true
+    },
+    {
+      "name": "CR",
+      "value": "CR",
+      "status": true
+    },
+    {
+      "name": "CS",
+      "value": "CS",
+      "status": true
+    },
+    {
+      "name": "CT",
+      "value": "CT",
+      "status": true
+    },
+    {
+      "name": "CU",
+      "value": "CU",
+      "status": true
+    },
+    {
+      "name": "CV",
+      "value": "CV",
+      "status": true
+    }
+  ],
+  "threshold": "100of100",
+  "constraints": [],
+  "revokedUsers": []
+}

@@ -2,11 +2,14 @@ package system;
 import attributes.PoliciesAttributesValues;
 import com.google.gson.Gson;
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import policies.FilePolicy;
 import utils.ProcessJSON;
 
 /**
- * Class used for policies' management.
+ * Class used for ...
  * 
  * @author      Melissa Brigitthe Hinojosa-Cabello
  * @version     1.0
@@ -23,13 +26,14 @@ public class PoliciesManagement {
      * @param threshold
      * @param revokedUsers 
      */
-    public static void generateFilePolicy(String file,PoliciesAttributesValues[] policyAttributes,String threshold,String[] revokedUsers){
+    public static void generateFilePolicy(String file,PoliciesAttributesValues[] policyAttributes,String threshold,String[] revokedUsers,String note){
         File f = new File(policiesPath); 
         
         //Create directory, if not exists
         if (!f.exists())
             f.mkdirs();
         
+        long startTime = System.nanoTime(); //Start timer
         //Create policy
         FilePolicy filePolicy=new FilePolicy(policyAttributes,threshold,new String[]{},revokedUsers);
 //        //Show file policy
@@ -37,6 +41,33 @@ public class PoliciesManagement {
             
         //Write created JSON
         ProcessJSON.writeJSON(filePolicy,policiesPath+file+filePolicyJSON);
+        long endTime = System.nanoTime(); //End timer
+        long durationMs = (endTime - startTime) / 1_000_000; //Convert to milliseconds
+        
+        //Write execution times
+        if(!note.isEmpty())
+            logPoliciesExecutionTime("ExecutionTimes_AccessPolicies.csv", note, durationMs);
+    }
+    
+    /**
+     * Log attribute sets generation response time
+     * @param logFile
+     * @param numAttributes
+     * @param numValues
+     * @param durationMs 
+     */
+    private static void logPoliciesExecutionTime(String logFile, String note, long durationMs) {
+        File file = new File(policiesPath+logFile);
+        boolean fileExists = file.exists();
+
+        try (PrintWriter writer = new PrintWriter(new FileWriter(file, true))) {
+            if (!fileExists)
+                writer.println("#Attributes,ExecutionTime(ms)");
+            writer.println(note+","+durationMs);
+        } catch (IOException e) {
+            System.err.println("Error writing execution time to CSV: "+logFile);
+            e.printStackTrace();
+        }
     }
     
     /**
@@ -60,7 +91,8 @@ public class PoliciesManagement {
         String[] thresholdValues=policy.getThreshold().split("of");
         //Amount of active attributes in the policy
         int activeAttrs=Integer.parseInt(thresholdValues[1]);
-        
+        System.out.println("activeAttrs out: "+activeAttrs);
+
         //Required (attribute,value) index
         int idxAttr=-1;
         
@@ -71,12 +103,14 @@ public class PoliciesManagement {
                 if(acpAttributes[i].getName().equals(policyAttributes[j].getName()) && acpAttributes[i].getValue().equals(policyAttributes[j].getValue())){
                     //Set index of the requested attribute and change its status to 'active'
                     idxAttr=i; acpAttributes[idxAttr].setStatus(true);
-                    activeAttrs++;
+                    activeAttrs++; //<------ REVISAR: NO SIEMPRE SE ACTUALIZA, ES NECESARIO EJECUTAR 2 VECES
+                    System.out.println("activeAttrs in: "+activeAttrs);
                 }
         
         //Update threshold if it's not specified by user
-        if(threshold.length()==0){
+        if(threshold.length()==0 || threshold.isEmpty()){
             threshold=thresholdValues[0]+"of"+activeAttrs;
+            System.out.println("threshold if: "+threshold);
             policy.setThreshold(threshold);
         }
         

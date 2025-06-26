@@ -1,0 +1,107 @@
+{
+  "attributes": [
+    {
+      "name": "A",
+      "value": "A",
+      "status": true
+    },
+    {
+      "name": "B",
+      "value": "B",
+      "status": true
+    },
+    {
+      "name": "C",
+      "value": "C",
+      "status": true
+    },
+    {
+      "name": "D",
+      "value": "D",
+      "status": true
+    },
+    {
+      "name": "E",
+      "value": "E",
+      "status": true
+    },
+    {
+      "name": "F",
+      "value": "F",
+      "status": true
+    },
+    {
+      "name": "G",
+      "value": "G",
+      "status": true
+    },
+    {
+      "name": "H",
+      "value": "H",
+      "status": true
+    },
+    {
+      "name": "I",
+      "value": "I",
+      "status": true
+    },
+    {
+      "name": "J",
+      "value": "J",
+      "status": true
+    },
+    {
+      "name": "K",
+      "value": "K",
+      "status": true
+    },
+    {
+      "name": "L",
+      "value": "L",
+      "status": true
+    },
+    {
+      "name": "M",
+      "value": "M",
+      "status": true
+    },
+    {
+      "name": "N",
+      "value": "N",
+      "status": true
+    },
+    {
+      "name": "O",
+      "value": "O",
+      "status": true
+    },
+    {
+      "name": "P",
+      "value": "P",
+      "status": true
+    },
+    {
+      "name": "Q",
+      "value": "Q",
+      "status": true
+    },
+    {
+      "name": "R",
+      "value": "R",
+      "status": true
+    },
+    {
+      "name": "S",
+      "value": "S",
+      "status": true
+    },
+    {
+      "name": "T",
+      "value": "T",
+      "status": true
+    }
+  ],
+  "threshold": "20of20",
+  "constraints": [],
+  "revokedUsers": []
+}

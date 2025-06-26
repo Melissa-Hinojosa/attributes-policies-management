@@ -3,21 +3,21 @@
     "attribute": "occupation",
     "value": "physician",
     "issuer_id": "DESKTOP-GT2G574",
-    "issue_datetime": "02-10-2024 19:40:45",
+    "issue_datetime": "26-06-2025 00:58:27",
     "status": true
   },
   {
     "attribute": "specialty",
     "value": "internal_medicine",
     "issuer_id": "DESKTOP-GT2G574",
-    "issue_datetime": "02-10-2024 19:40:45",
+    "issue_datetime": "26-06-2025 00:58:27",
     "status": true
   },
   {
     "attribute": "department",
     "value": "emergency_medicine",
     "issuer_id": "DESKTOP-GT2G574",
-    "issue_datetime": "02-10-2024 19:40:45",
+    "issue_datetime": "26-06-2025 00:58:27",
     "status": true
   }
 ]
